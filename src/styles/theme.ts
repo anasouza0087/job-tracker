@@ -1,4 +1,4 @@
-export const Theme = {
+export const theme = {
   colors: {
     primary: "#4f46e5", // Indigo
     secondary: "#06b6d4", // Cyan
@@ -21,4 +21,11 @@ export const Theme = {
     lg: "12px",
   },
   fontFamily: `'Inter', sans-serif`,
+  buttons: {
+    hover: {
+      opacity: 0.9,
+    },
+  },
 };
+
+export type ThemeType = typeof theme;
