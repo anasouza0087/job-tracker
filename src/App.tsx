@@ -6,9 +6,7 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <div>
-        <p>app</p>
-        </div>
+        <div>app</div>
       </ThemeProvider>
     </>
   );
